@@ -1,1 +1,19 @@
-
+{
+  "schemaVersion": 1,
+  "id": "sialikvisuals",
+  "version": "${version}",
+  "name": "Sialik Visuals",
+  "description": "Пустышка Fabric 1.21.4",
+  "authors": ["SWILL"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.swill.sialikvisuals.SialikVisualsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4"
+  }
+}
